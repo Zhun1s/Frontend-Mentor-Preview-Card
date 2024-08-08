@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+.purple {
+    color: hsl(277, 64%, 61%);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: hsl(244, 38%, 16%);
+    height: 350px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 300px;
+    width: 350px;
+    align-items: center; 
+}
+
+.big{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    margin-top: 50px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: -15px;
+}
+
+.describe{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    line-height: 1.7;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.statics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 300px;
+    margin-bottom: 50px;
+    color: hsl(0, 0%, 100%);
+}
+
+.stat {
+    line-height: 0.2;
+    margin: 0;
+    padding: 0;
+}
+
+#little {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.photo{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(277, 64%, 61%, 0.2);
+    z-index: 1;
+}
